@@ -5,6 +5,7 @@
   const remove = (ind) => (todos = todos.filter((v, i) => i !== ind));
 </script>
 
+<h1>TODO APP</h1>
 <input bind:value={inp} type="text" />
 <button on:click={add}>Add</button>
 {#each todos as todo, index (index)}
